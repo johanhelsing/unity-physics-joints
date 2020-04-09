@@ -1,0 +1,19 @@
+{
+    "name": "org.johanhelsing.unityphysicsjoints",
+    "version": "0.0.1",
+    "displayName": "Unity Physics Joints",
+    "description": "Adds joint support to the DOTS Unity Physics. Copy of the files from the EntityComponentSystemSamples repo",
+    "unity": "2019.3",
+    "keywords": [
+        "physics"
+    ],
+    "author": {
+        "name": "Johan Klokkhammer Helsing",
+        "email": "johanhelsing@gmail.com",
+        "url": "https://github.com/johanhelsing/unity-physics-joints"
+    },
+    "dependencies": {
+        "com.unity.physics": "0.3.1-preview"
+    },
+    "type": "library"
+}
