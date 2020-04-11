@@ -5,6 +5,7 @@ using static Unity.Physics.Math;
 
 namespace Unity.Physics.Authoring
 {
+    [AddComponentMenu("DOTS/Physics/Joints/Limited Hinge Joint")]
     public class LimitedHingeJoint : FreeHingeJoint
     {
         // Editor only settings

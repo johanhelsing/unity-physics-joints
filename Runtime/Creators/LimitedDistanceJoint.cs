@@ -5,6 +5,7 @@ using static Unity.Physics.Math;
 
 namespace Unity.Physics.Authoring
 {
+    [AddComponentMenu("DOTS/Physics/Joints/Limited Distance Joint")]
     public class LimitedDistanceJoint : BaseJoint
     {
         [Tooltip("If checked, PositionLocal will snap to match PositionInConnectedEntity")]

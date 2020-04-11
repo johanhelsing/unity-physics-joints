@@ -4,6 +4,7 @@ using UnityEngine;
 
 namespace Unity.Physics.Authoring
 {
+    [AddComponentMenu("DOTS/Physics/Joints/Free Hinge Joint")]
     public class FreeHingeJoint : BaseJoint
     {
         [Tooltip("If checked, PositionInConnectedEntity and HingeAxisInConnectedEntity will be set to match PositionLocal and HingeAxisLocal")]

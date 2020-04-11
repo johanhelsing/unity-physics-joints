@@ -4,6 +4,7 @@ using UnityEngine;
 
 namespace Unity.Physics.Authoring
 {
+    [AddComponentMenu("DOTS/Physics/Joints/Ball And Socket Joint")]
     public class BallAndSocketJoint : BaseJoint
     {
         [Tooltip("If checked, PositionLocal will snap to match PositionInConnectedEntity")]

@@ -9,6 +9,7 @@ namespace Unity.Physics.Authoring
     // This is achieved by combining the appropriate lower level 'constraint atoms' to form the higher level Joint.
     // In this case Linear and Angular constraint atoms are combined. 
     // One use-case for this Joint could be to restrict a 3d simulation to a 2d plane.
+    [AddComponentMenu("DOTS/Physics/Joints/Limit DOF Joint")]
     public class LimitDOFJoint : BaseJoint
     {
         public bool3 LockLinearAxes = new bool3();

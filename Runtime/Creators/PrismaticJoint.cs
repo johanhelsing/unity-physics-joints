@@ -5,6 +5,7 @@ using static Unity.Physics.Math;
 
 namespace Unity.Physics.Authoring
 {
+    [AddComponentMenu("DOTS/Physics/Joints/Prismatic Joint")]
     public class PrismaticJoint : BaseJoint
     {
         [Tooltip("If checked, PositionLocal will snap to match PositionInConnectedEntity")]

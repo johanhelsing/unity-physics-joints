@@ -4,6 +4,7 @@ using UnityEngine;
 
 namespace Unity.Physics.Authoring
 {
+    [AddComponentMenu("DOTS/Physics/Joints/Rigid Joint Joint")]
     public class RigidJoint : BaseJoint
     {
         [Tooltip("If checked, PositionLocal will snap to match PositionInConnectedEntity")]

@@ -5,6 +5,7 @@ using static Unity.Physics.Math;
 
 namespace Unity.Physics.Authoring
 {
+    [AddComponentMenu("DOTS/Physics/Joints/Ragdoll Joint")]
     public class RagdollJoint : BaseJoint
     {
         [Tooltip("If checked, PositionInConnectedEntity and TwistAxisInConnectedEntity will be set to match PositionLocal and TwistAxisLocal")]
