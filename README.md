@@ -9,3 +9,4 @@ meantime.
 ## Changes to the original version
 
 - Added component menus
+- Added entity conversion requirement

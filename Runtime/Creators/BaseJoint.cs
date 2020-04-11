@@ -4,6 +4,7 @@ using UnityEngine;
 
 namespace Unity.Physics.Authoring
 {
+    [RequiresEntityConversion]
     public abstract class BaseJoint : MonoBehaviour
     {
         public PhysicsBodyAuthoring ConnectedBody;
